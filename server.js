@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json());  // لتعامل مع البيانات المدخلة بصيغة JSON
 
-const token = 'YOUR_BOT_TOKEN'; // استبدله بتوكن البوت
+const token = '7552519299:AAEhE5noFW-QYiw6ZNcnV2BDMDkp7TaErQE'; // استبدله بتوكن البوت
 const url = `https://api.telegram.org/bot${token}/sendMessage`;
 
 // نقطة webhook لتلقي الرسائل
